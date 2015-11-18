@@ -43,8 +43,9 @@ on emmc-fs
     mkdir /vendor/firmware/adsp     0771 system system
     mkdir /vendor/firmware/misc_mdm 0771 system system
 
-    # mount the whole thing
-    mount_all fstab.holiday
+on fs
+    # Mount all mmc partitions
+    mount_all ./fstab.holiday
 
     chown radio diag /dev/block/mmcblk0p16
     chmod 0460 /dev/block/mmcblk0p16
