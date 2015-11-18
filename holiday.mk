@@ -379,6 +379,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.mode=endfire \
     persist.audio.vr.enable=false \
     media.a1026.nsForVoiceRec=0 \
+    media.stagefright.use-awesome=true \
     media.a1026.enableA1026=0 \
     htc.audio.alt.enable=0 \
     htc.audio.hac.enable=0
