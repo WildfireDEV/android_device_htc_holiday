@@ -76,6 +76,11 @@ PRODUCT_PACKAGES += \
     libsurfaceflinger_client \
     com.android.future.usb.accessory
 
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    hostapd \
+    wpa_supplicant
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
