@@ -145,6 +145,7 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 
 # Misc
 COMMON_GLOBAL_CFLAGS += -DHTCLOG
+BOARD_USES_LEGACY_MMAP := true
 
 # Boot-animation
 TARGET_BOOTANIMATION_PRELOAD := true
