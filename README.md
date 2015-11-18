@@ -16,4 +16,4 @@ This repository contains:
 And also need to compile
 
 
-1 - https://github.com/Arc-Team/android_kernel_htc_holiday/tree/cm-11.0
+1 - https://github.com/Arc-Team/android_kernel_htc_holiday/tree/cm-12.0
