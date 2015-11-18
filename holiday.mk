@@ -378,7 +378,3 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 # Device Density
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
-
-# System properties
--include $(LOCAL_PATH)/system_prop.mk
-
