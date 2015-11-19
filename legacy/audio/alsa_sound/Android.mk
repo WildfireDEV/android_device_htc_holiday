@@ -208,6 +208,10 @@ ifeq ($(TARGET_BOARD_PLATFORM),msm8610)
   LOCAL_MODULE := audio.primary.msm8610
 endif
 
+ifeq ($(TARGET_BOARD_PLATFORM),msm8660)
+  LOCAL_MODULE := audio.primary.msm8660
+endif
+
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
 LOCAL_MODULE_TAGS := optional
 
